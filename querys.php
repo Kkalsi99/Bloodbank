@@ -29,7 +29,7 @@ $query = "CREATE TABLE Org (
 ) ";
 
   $result = mysqli_query($conn, $query);
-    if (!$result) {echo "no created check dbconnect.php";}?>
+    if (!$result) {echo "no created check dbconnect.php";}
 
 $query="CREATE TABLE OrgBlood (
   OB_Id int(11) NOT NULL AUTO_INCREMENT,
@@ -47,4 +47,4 @@ $query="CREATE TABLE OrgBlood (
   CONSTRAINT OrgBlood_ibfk_1 FOREIGN KEY (Id) REFERENCES Org (Id)
 )";
 $result = mysqli_query($conn, $query);
-    if (!$result) {echo "no created check dbconnect.php";}
+    if (!$result) {echo "no created check dbconnect.php";}?>
