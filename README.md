@@ -1,4 +1,4 @@
 # Bloodbank
-#php Project
+php Project
 
-##run querys.php in broswer or manually in terminal
+run querys.php in broswer or manually in terminal
